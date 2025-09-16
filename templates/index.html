@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Chat Sederhana</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+        #chatbox { max-height: 400px; overflow-y: auto; }
+        .message { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <h1 class="title">AI Chat Sederhana</h1>
+        <div id="chatbox" class="box"></div>
+        <div class="field has-addons">
+            <div class="control is-expanded">
+                <input id="userInput" class="input" type="text" placeholder="Ketik pesan...">
+            </div>
+            <div class="control">
+                <button id="sendBtn" class="button is-info">Kirim</button>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="/static/script.js"></script>
+</body>
+</html>
